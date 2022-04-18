@@ -59,7 +59,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h2>Todo List</h2>
+      <h2>To do List</h2>
       <div className="todo-list">  
       <TodoForm addTodo={addTodo}/>
         {todos.map((todo, index) => (
